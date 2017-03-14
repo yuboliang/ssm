@@ -7,9 +7,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form action="login">
-		<input type="text" name="username">
-		<input type="password" name="password">
+	<form action="login" method="post">
+		username:<input type="text" name="username"><br>
+		password:<input type="password" name="password"><br>
 		<input type="submit" value = "提交">
 	</form>
 </body>
