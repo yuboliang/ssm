@@ -7,12 +7,11 @@
     xmlns:jee="http://www.springframework.org/schema/jee"  
     xmlns:tx="http://www.springframework.org/schema/tx" 
     xsi:schemaLocation="    
-        http://www.springframework.org/schema/aop   classpath:/http://www.springframework.org/schema/aop/spring-aop-4.0.xsd  
-        http://www.springframework.org/schema/beans   classpath:/http://www.springframework.org/schema/beans/spring-beans-4.0.xsd  
-        http://www.springframework.org/schema/context   classpath:/http://www.springframework.org/schema/context/spring-context-4.0.xsd  
-        http://www.springframework.org/schema/jee   classpath:/http://www.springframework.org/schema/jee/spring-jee-4.0.xsd  
-        http://www.springframework.org/schema/tx   classpath:/http://www.springframework.org/schema/tx/spring-tx-4.0.xsd"
-    >    
+        http://www.springframework.org/schema/aop classpath:/org/springframework/aop/config/spring-aop-4.0.xsd  
+        http://www.springframework.org/schema/beans classpath:/org/springframework/beans/factory/xml/spring-beans-4.0.xsd  
+        http://www.springframework.org/schema/context classpath:/org/springframework/context/config/spring-context-4.0.xsd  
+        http://www.springframework.org/schema/jee classpath:/org/springframework/ejb/config/spring-jee-4.0.xsd 
+        http://www.springframework.org/schema/tx classpath:/org/springframework/transaction/config/spring-tx-4.0.xsd"> 
 
 	<!-- 使用注解的包，包括子集 -->
 	<context:component-scan base-package="com.healthmall.ssm.controller" />

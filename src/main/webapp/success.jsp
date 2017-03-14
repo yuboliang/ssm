@@ -7,10 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form action="${pageContext.request.contextPath }/user/login" method="post">
-		username:<input type="text" name="username"><br>
-		password:<input type="password" name="password"><br>
-		<input type="submit" value = "提交">
-	</form>
+欢迎！
 </body>
 </html>
