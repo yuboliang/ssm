@@ -1,5 +1,7 @@
 package com.healthmall.ssm.service.impl;
 
+import javax.xml.ws.ServiceMode;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -15,6 +17,7 @@ public class UserServiceImpl implements UserService {
 	
 	@Override
 	public User getUserByName(String username) {
+		
 		return userDao.getUserByName(username);
 	}
 
