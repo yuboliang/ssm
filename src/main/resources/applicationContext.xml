@@ -74,6 +74,5 @@
             expression="execution(* com.healthmall.ssm.service.*.*(..))" />  
         <aop:advisor advice-ref="txAdvice" pointcut-ref="serviceOperation" />  
     </aop:config>  
-    
    
 </beans>
