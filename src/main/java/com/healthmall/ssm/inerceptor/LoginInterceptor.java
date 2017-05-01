@@ -9,7 +9,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 import com.healthmall.ssm.controller.LoginController;
 
-public class LoginInterceptor implements HandlerInterceptor {
+class LoginInterceptor implements HandlerInterceptor {
 
 	@Override
 	public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler)
@@ -40,5 +40,5 @@ public class LoginInterceptor implements HandlerInterceptor {
 		// TODO Auto-generated method stub
 
 	}
-
+	
 }
